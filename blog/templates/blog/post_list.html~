@@ -1,9 +1,19 @@
 <html>
     <head>
-        <title>Andika's blog</title>
+        <title>Django Girls blog</title>
     </head>
     <body>
-        <p>Hi there!</p>
-        <p>It works!</p>
+        <div>
+            <h1><a href="">Django Girls Blog</a></h1>
+        </div>
+
+        <div>
+            {{ posts }}
+        </div>
+
+        <div>
+            {{ posts }}
+        </div>
     </body>
 </html>
+
